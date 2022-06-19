@@ -314,10 +314,10 @@ color: var(--accent-color);
 .filter {
     display: flex;
     justify-content: center;
-    width: 611px;
     margin: 0;
     padding: 0;
     margin-bottom: 34px;
+    margin-top: 94px;
 }
 .items {
     width: 370px;
@@ -328,6 +328,7 @@ color: var(--accent-color);
 }
 .filter-button {
     align-items: center;
+    margin-right: 8px;
     color: var(--title-color);
     background-color: var(--button-bgc-color);
     border: none;
