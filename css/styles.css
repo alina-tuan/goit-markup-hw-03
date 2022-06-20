@@ -318,13 +318,6 @@ color: var(--accent-color);
 
 
 /* страница порфолио */
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
 .portfolio {
     padding-top: 94px;
     padding-bottom: 94px;
