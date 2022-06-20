@@ -28,6 +28,9 @@ body {
 ul {
     list-style: none;
 }
+.header {
+    border: 1px solid #ECECEC;
+}
 .header .logo {
     display: flex;
     text-decoration: none;
@@ -82,6 +85,8 @@ ul {
 }
 .site-nav-contact {
     margin-left: auto;
+    margin-bottom: 0;
+    margin-top: 0;
     padding: 0;
     display: flex;
 }
@@ -119,6 +124,9 @@ ul {
 .hero-title {
     margin-top: 0;
     margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 696px;
     color: var(--white-color);
     font-weight: 900;
     font-size: 44px;
@@ -159,6 +167,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+.points {
+    width: 270px;
+}
 .peculiarities-title {
     margin-top: 0;
     margin-bottom: 10px;
@@ -181,6 +192,9 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
+.works {
+    padding-bottom: 94px;
+}
 .works .section-title {
     margin-top: 0;
     margin-bottom: 50px;
@@ -197,7 +211,6 @@ ul {
     margin: 0;
 }
 .work-items .item {
-    padding-bottom: 94px;
     margin-right: 30px;
 }
 .work-items .item:nth-child(3n) {
@@ -209,12 +222,13 @@ ul {
     height: auto;
 }
 .team {
+    padding-top: 94px;
+    padding-bottom: 94px;
     background-color: var(--button-bgc-color);
 }
 .team .section-title {
-    padding-top: 94px;
-    padding-bottom: 50px;
-    margin: 0;
+    margin-bottom: 50px;
+    margin-top: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
@@ -229,7 +243,6 @@ ul {
 .team-member {
     background-color: var(--white-color);
     margin-right: 30px;
-    margin-bottom: 94px;
 }
 .members .team-member:nth-child(4n) {
     margin-right: 0;
@@ -242,16 +255,16 @@ ul {
     letter-spacing: 0.03em;
 }
 .team-member .description {
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
 }
 .team-member-name {
-    margin: 0;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 0;
 }
 .team-member-position {
     margin: 0;
-    padding-bottom: 30px;
 }
 .team-member-position {
     color: var(--text-color);
@@ -262,15 +275,15 @@ ul {
 }
 .footer {
     display: flex;
+    padding-top: 60px;
+    padding-bottom: 60px;
     background-color: var(--footer-bg-color);
 }
 .footer .logo {
     display: flex;
+    margin-bottom: 20px;
     color: var(--white-color);
     text-decoration: none;
-    margin-top: 60px;
-    margin-bottom: 20px;
-
 }
 .adress {
     margin-bottom: 9px;
@@ -285,6 +298,7 @@ ul {
     padding: 0;
     margin: 0;
 }
+
 .footer .adress-link {
     display: flex;
     margin-bottom: 9px;
@@ -295,9 +309,7 @@ ul {
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
-.adress-list:last-child {
-    margin-bottom: 60px;
-}
+
 .adress-link:hover,
 .adress-link:focus,
 .adress-link:active {
@@ -313,6 +325,10 @@ color: var(--accent-color);
     margin-left: auto;
     margin-right: auto;
 }
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .items {
     width: 370px;
     margin-bottom: 30px;
@@ -324,15 +340,19 @@ color: var(--accent-color);
     display: flex;
     justify-content: center;
     padding: 0;
+    margin-top: 0;
     margin-bottom: 34px;
-    margin-top: 94px;
+}
+.filter-tap {
+    margin-right: 8px;
 }
 .filter-button {
     align-items: center;
-    margin-right: 8px;
+    padding: 6px 22px;
     color: var(--title-color);
     background-color: var(--button-bgc-color);
     border: none;
+    border-radius: 4px;
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -354,7 +374,6 @@ color: var(--accent-color);
     flex-wrap: wrap;
     margin: calc(-1 * var(--indent) / 2);
     align-items: center;
-    margin-bottom: 94px;
     padding: 0;
 }
 .projects .items {
