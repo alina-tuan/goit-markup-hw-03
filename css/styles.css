@@ -28,6 +28,11 @@ body {
 ul {
     list-style: none;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 .header {
     border-bottom: 1px solid #ECECEC;
 }
@@ -335,7 +340,7 @@ color: var(--accent-color);
     justify-content: center;
     padding: 0;
     margin-top: 0;
-    margin-bottom: 34px;
+    margin-bottom: 50px;
 }
 .filter-tap {
     margin-right: 8px;
@@ -374,7 +379,6 @@ color: var(--accent-color);
     flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
     margin: calc(var(--indent) / 2);
 }
-
 .prorect-title {
     margin-bottom: 20px;
     margin-left: 24px;
@@ -398,5 +402,7 @@ color: var(--accent-color);
     box-sizing: border-box;
     width: 370px;
     padding: 24px 20px;
-    border: 1px solid #EEEEEE;
+    border-right: 1px solid #EEEEEE;
+    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid #EEEEEE;
 }
